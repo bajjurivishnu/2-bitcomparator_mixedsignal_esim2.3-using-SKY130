@@ -1,0 +1,68 @@
+* c:\users\vyshu\esim-workspace\vishnu_comparator\vishnu_comparator.cir
+
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__pnp.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__linear.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__diode_pd2nw_11v0.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__diode_pw2nd_11v0.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__r+c.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__inductors.model.spice"
+.lib "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130.lib.spice" tt
+* u2  net-_u2-pad1_ net-_u2-pad2_ net-_u2-pad3_ net-_u2-pad4_ net-_u2-pad5_ net-_u2-pad6_ net-_u2-pad7_ net-_u2-pad8_ net-_u2-pad9_ net-_u2-pad10_ net-_u2-pad11_ net-_u2-pad12_ vishnu_2bitcomp
+* u6  a1 a0 b1 b0 net-_u2-pad1_ net-_u2-pad2_ net-_u2-pad3_ net-_u2-pad4_ adc_bridge_4
+* u8  net-_u2-pad5_ net-_u2-pad6_ net-_u2-pad7_ net-_u2-pad8_ net-_u2-pad9_ net-_u2-pad10_ net-_u2-pad11_ net-_u2-pad12_ net-_sc10-pad2_ net-_sc15-pad2_ net-_sc16-pad2_ net-_sc11-pad2_ net-_sc12-pad2_ net-_sc1-pad2_ net-_sc3-pad2_ net-_sc4-pad2_ dac_bridge_8
+xsc14 net-_sc14-pad1_ net-_sc10-pad2_ net-_sc14-pad3_ net-_sc14-pad3_ sky130_fd_pr__pfet_01v8_lvt 
+xsc15 net-_sc15-pad1_ net-_sc15-pad2_ net-_sc14-pad1_ net-_sc14-pad3_ sky130_fd_pr__pfet_01v8_lvt 
+xsc16 net-_sc10-pad1_ net-_sc16-pad2_ net-_sc15-pad1_ net-_sc14-pad3_ sky130_fd_pr__pfet_01v8_lvt 
+xsc10 net-_sc10-pad1_ net-_sc10-pad2_ gnd gnd sky130_fd_pr__nfet_01v8_lvt 
+xsc17 net-_sc10-pad1_ net-_sc15-pad2_ gnd gnd sky130_fd_pr__nfet_01v8_lvt 
+xsc18 net-_sc10-pad1_ net-_sc16-pad2_ gnd gnd sky130_fd_pr__nfet_01v8_lvt 
+xsc21 lessthan net-_sc10-pad1_ net-_sc14-pad3_ net-_sc14-pad3_ sky130_fd_pr__pfet_01v8_lvt 
+xsc9 net-_sc11-pad1_ net-_sc11-pad2_ net-_sc13-pad3_ net-_sc13-pad3_ sky130_fd_pr__pfet_01v8_lvt 
+xsc13 net-_sc11-pad1_ net-_sc12-pad2_ net-_sc13-pad3_ net-_sc13-pad3_ sky130_fd_pr__pfet_01v8_lvt 
+xsc11 net-_sc11-pad1_ net-_sc11-pad2_ net-_sc11-pad3_ gnd sky130_fd_pr__nfet_01v8_lvt 
+xsc12 net-_sc11-pad3_ net-_sc12-pad2_ gnd gnd sky130_fd_pr__nfet_01v8_lvt 
+xsc19 et net-_sc11-pad1_ net-_sc13-pad3_ net-_sc13-pad3_ sky130_fd_pr__pfet_01v8_lvt 
+xsc2 net-_sc2-pad1_ net-_sc1-pad2_ net-_sc2-pad3_ net-_sc2-pad3_ sky130_fd_pr__pfet_01v8_lvt 
+xsc3 net-_sc3-pad1_ net-_sc3-pad2_ net-_sc2-pad1_ net-_sc2-pad3_ sky130_fd_pr__pfet_01v8_lvt 
+xsc4 net-_sc1-pad1_ net-_sc4-pad2_ net-_sc3-pad1_ net-_sc2-pad3_ sky130_fd_pr__pfet_01v8_lvt 
+xsc1 net-_sc1-pad1_ net-_sc1-pad2_ gnd gnd sky130_fd_pr__nfet_01v8_lvt 
+xsc5 net-_sc1-pad1_ net-_sc3-pad2_ gnd gnd sky130_fd_pr__nfet_01v8_lvt 
+xsc6 net-_sc1-pad1_ net-_sc4-pad2_ gnd gnd sky130_fd_pr__nfet_01v8_lvt 
+xsc7 greaterthan net-_sc1-pad1_ net-_sc2-pad3_ net-_sc2-pad3_ sky130_fd_pr__pfet_01v8_lvt 
+v7 net-_sc14-pad3_ gnd  dc 1.8
+v6 net-_sc13-pad3_ gnd  dc 1.8
+v5 net-_sc2-pad3_ gnd  dc 1.8
+v1  a1 gnd pulse(0 1.8 1m 5u 5u 2.5m 5m)
+v2  a0 gnd pulse(0 1.8 2m 5u 5u 2.5m 5m)
+v3  b1 gnd pulse(0 1.8 0 5u 5u 2.5m 5m)
+v4  b0 gnd pulse(0 1.8 4m 5u 5u 2.5m 5m)
+* u10  lessthan plot_v1
+* u9  et plot_v1
+* u7  greaterthan plot_v1
+* u5  a1 plot_v1
+* s c m o d e
+xsc22 lessthan net-_sc10-pad1_ gnd gnd sky130_fd_pr__nfet_01v8_lvt 
+xsc20 et net-_sc11-pad1_ gnd gnd sky130_fd_pr__nfet_01v8_lvt 
+xsc8 greaterthan net-_sc1-pad1_ gnd gnd sky130_fd_pr__nfet_01v8_lvt 
+* u1  a0 plot_v1
+* u3  b1 plot_v1
+* u4  b0 plot_v1
+a1 [net-_u2-pad1_ ] [net-_u2-pad2_ ] [net-_u2-pad3_ ] [net-_u2-pad4_ ] [net-_u2-pad5_ ] [net-_u2-pad6_ ] [net-_u2-pad7_ ] [net-_u2-pad8_ ] [net-_u2-pad9_ ] [net-_u2-pad10_ ] [net-_u2-pad11_ ] [net-_u2-pad12_ ] u2
+a2 [a1 a0 b1 b0 ] [net-_u2-pad1_ net-_u2-pad2_ net-_u2-pad3_ net-_u2-pad4_ ] u6
+a3 [net-_u2-pad5_ net-_u2-pad6_ net-_u2-pad7_ net-_u2-pad8_ net-_u2-pad9_ net-_u2-pad10_ net-_u2-pad11_ net-_u2-pad12_ ] [net-_sc10-pad2_ net-_sc15-pad2_ net-_sc16-pad2_ net-_sc11-pad2_ net-_sc12-pad2_ net-_sc1-pad2_ net-_sc3-pad2_ net-_sc4-pad2_ ] u8
+* Schematic Name:                             vishnu_2bitcomp, NgSpice Name: vishnu_2bitcomp
+.model u2 vishnu_2bitcomp(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             adc_bridge_4, NgSpice Name: adc_bridge
+.model u6 adc_bridge(in_low=0 in_high=1.8 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_8, NgSpice Name: dac_bridge
+.model u8 dac_bridge(out_low=0 out_high=1.8 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+.tran 1e-03 10e-03 0e-03
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(a1) v(a0)+6 v(b1)+12 v(b0)+18 v(lessthan)+24 v(et)+30 v(greaterthan)+36
+.endc
+.end
