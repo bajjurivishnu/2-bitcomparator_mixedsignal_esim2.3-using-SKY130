@@ -1,0 +1,12 @@
+module vishnu_2bitcomp(A1,A0,B1,B0,t0,t1,t2,t3,t4,t5,t6,t7);
+input A1,A0,B1,B0;
+output t0,t1,t2,t3,t4,t5,t6,t7;
+and g1(t0,~A1,B1);
+and g2(t1,~A0,B1,B0);
+and g3(t2,~A1,~A0,B0);
+xnor g4(t3,A1,B1);
+xnor g5(t4,A0,B0);
+and g6(t5,A1,~B1);
+and g7(t6,A0,~B1,~B0);
+and g8(t7,A1,A0,~B0);
+endmodule
