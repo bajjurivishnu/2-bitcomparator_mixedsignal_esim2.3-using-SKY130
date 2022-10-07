@@ -134,5 +134,13 @@ endmodule
 ## Netlists
 ![netslist1](https://user-images.githubusercontent.com/100477948/194517868-7251b3ca-5abc-4003-b331-60a67b2daa71.png)
 ![netlist2](https://user-images.githubusercontent.com/100477948/194518001-8405c5b9-35b7-445c-a26a-b0dc43d4cf51.png)
-
+## Steps to run generate NgVeri Model
+1. Open eSim
+2. Run NgVeri-Makerchip 
+3. Add top level verilog file in Makerchip Tab
+4. Click on NgVeri tab
+5. Add dependency files
+6. Click on Run Verilog to NgSpice Converter
+7. Debug if any errors
+8. Model created successfully
 
