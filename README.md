@@ -78,6 +78,9 @@ http://ngspice.sourceforge.net/docs.html
 It is an Online Web Browser IDE for Verilog/System-verilog/TL-Verilog Simulation. Refer
 </br> https://www.makerchip.com/
 
+## Circuit Diagram in eSim
+The following is the schematic in eSim:
+![mixed_signal_marathoncircuit](https://user-images.githubusercontent.com/100477948/194511170-a0571262-7556-4d2a-a240-75bb049d6cd2.png)
 
 
 
