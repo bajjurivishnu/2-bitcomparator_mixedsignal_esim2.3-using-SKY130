@@ -128,7 +128,9 @@ endmodule
 //Add \TLV here if desired                                     
 \SV
 endmodule
-
+```
+## Makerchip Plots
+![makerchip_waveforms](https://user-images.githubusercontent.com/100477948/194516845-2181216b-736c-459d-8f43-f20b92c8ceae.png)
 
 
 
