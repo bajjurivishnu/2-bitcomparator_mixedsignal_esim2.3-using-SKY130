@@ -35,8 +35,9 @@ one for A = B condition, and one for A<B condition.
 ## Circuit Details
 In the diagram,a 2-bit magnitude comparator is split into two blocks: digital and analog.
 </br>
-The digital portion of the circuit is implemented using Verilog. For the
-analog portion, the two 3-input ”OR” gates and one 2-input ”AND” gate are replaced with NMOS and
+The digital portion of the circuit is implemented using Verilog.
+</br>
+For the analog portion, the two 3-input ”OR” gates and one 2-input ”AND” gate are replaced with NMOS and
 PMOS transistors, making the circuit mixed-signal.
 </br>
 The output of the mixed signal 2-bit comparator
