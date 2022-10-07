@@ -81,7 +81,8 @@ It is an Online Web Browser IDE for Verilog/System-verilog/TL-Verilog Simulation
 ## Circuit Diagram in eSim
 The following is the schematic in eSim:
 ![mixed_signal_marathoncircuit](https://user-images.githubusercontent.com/100477948/194511170-a0571262-7556-4d2a-a240-75bb049d6cd2.png)
-
+## Verilog Code
+![verilogcode](https://user-images.githubusercontent.com/100477948/194511593-2f2b4bcb-7eb9-4009-9246-2fec7b5f75d9.png)
 
 
 
