@@ -28,3 +28,5 @@ out whether one binary number is equal, less than, or
 greater than the other binary number. The Circuit will have two inputs one for A and the other for B and have three output terminals, 
 one for A > B condition,
 one for A = B condition, and one for A<B condition.
+## Reference Circuit Diagram
+![image]()
