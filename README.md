@@ -29,4 +29,4 @@ greater than the other binary number. The Circuit will have two inputs one for A
 one for A > B condition,
 one for A = B condition, and one for A<B condition.
 ## Reference Circuit Diagram
-![reference_circuit](https://user-images.githubusercontent.com/100477948/194505561-c4265b6b-5e34-4aec-8672-9befbf0f42d1.jpg)
+![reference_circuit](https://user-images.githubusercontent.com/100477948/194505561-c4265b6b-5e34-4aec-8672-9befbf0f42d1.jpg width="200" height="400")
