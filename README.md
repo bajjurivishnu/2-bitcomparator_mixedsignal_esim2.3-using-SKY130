@@ -156,4 +156,4 @@ Vishnu Bajjuri, B.Tech (ECE), Jyothishmathi Institute of Technology and Science,
 ## References
 1. Weste, Neil HE, and David Harris. CMOS VLSI design: a circuits and systems perspective. Pearson Education India, 2015.
 2. Mano, M. Morris. Digital logic and computer design. Pearson Education India, 2017
-3. https://www.geeksforgeeks.org/magnitude-comparator-indigital-logic/
+3. https://www.geeksforgeeks.org/magnitude-comparator-in-digital-logic/
