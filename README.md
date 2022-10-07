@@ -145,4 +145,5 @@ endmodule
 6. Click on Run Verilog to NgSpice Converter
 7. Debug if any errors
 8. Model created successfully
-
+## Author
+Vishnu Bajjuri, B.Tech(ECE), Jyothishmathi Institute of Technology and Science, Karimnagar.
