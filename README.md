@@ -131,6 +131,8 @@ endmodule
 ```
 ## Makerchip Plots
 ![makerchip_waveforms](https://user-images.githubusercontent.com/100477948/194516845-2181216b-736c-459d-8f43-f20b92c8ceae.png)
-
+## Netlists
+![netslist1](https://user-images.githubusercontent.com/100477948/194517868-7251b3ca-5abc-4003-b331-60a67b2daa71.png)
+![netlist2](https://user-images.githubusercontent.com/100477948/194518001-8405c5b9-35b7-445c-a26a-b0dc43d4cf51.png)
 
 
