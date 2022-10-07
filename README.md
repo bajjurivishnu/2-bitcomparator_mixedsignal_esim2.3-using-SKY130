@@ -16,7 +16,7 @@
 - [Netlists](#netlists)
 - [NgSpice Plots](#ngspice-plots)
 - [Steps to run generate NgVeri Model](#steps-to-run-generate-ngveri-model)
-- [Steps to run this project](#steps-to-run-this-project)
+- [Author](#author)
 - [Acknowlegdements](#acknowlegdements)
 - [References](#references)
 
