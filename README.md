@@ -151,7 +151,9 @@ Vishnu Bajjuri, B.Tech (ECE), Jyothishmathi Institute of Technology and Science,
 1. FOSSEE, IIT Bombay
 2. Steve Hoover, Founder, Redwood EDA
 3. Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalpghosh@gmail.com
-4. Sumanto Kar, eSim Team, FOSSEE
+4. Sumanto Kar, eSim Team, FOSSEE 
+5. https://www.c2s.gov.in/
+6. https://www.google.co.in/
 
 ## References
 1. Weste, Neil HE, and David Harris. CMOS VLSI design: a circuits and systems perspective. Pearson Education India, 2015.
