@@ -9,7 +9,7 @@
   * [eSim 2.3](#esim-2.3)
   * [NgSpice](#ngspice)
   * [Makerchip](#makerchip)
-- [Circuit Diagram in eSim](#circuit-diagram-in-esim)
+- [Circuit Diagram in eSim 2.3](#circuit-diagram-in-esim-2.3)
 - [Verilog Code](#verilog-code)
 - [Makerchip](#makerchip-1)
 - [Makerchip Plots](#makerchip-plots)
@@ -21,3 +21,10 @@
 - [References](#references)
 
 
+## Abstract
+A magnitude Comparator is a combinational
+circuit that compares two binary numbers in order to find
+out whether one binary number is equal, less than, or
+greater than the other binary number. The Circuit will have two inputs one for A and the other for B and have three output terminals, 
+one for A > B condition,
+one for A = B condition, and one for A<B condition.
