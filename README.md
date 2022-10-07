@@ -63,7 +63,20 @@ circuit may be less than, equal to (ET), or greater than.
 | 1  | 1 | 1  | 0 | 0 | 0  | 1  |
 | 1  | 1 | 1  | 0 | 0 | 0  | 1  |
 | 1  | 1 | 1  | 1 | 0 | 1  | 0  |
-
+## Software Used
+### eSim 2.3
+It is an Open Source EDA developed by FOSSEE, IIT Bombay. It is used for electronic circuit simulation. It is made by the combination of two software namely NgSpice and KiCAD.
+</br>
+For more details refer:
+</br>
+https://esim.fossee.in/home
+### NgSpice
+It is an Open Source Software for Spice Simulations. For more details refer:
+</br>
+http://ngspice.sourceforge.net/docs.html
+### Makerchip
+It is an Online Web Browser IDE for Verilog/System-verilog/TL-Verilog Simulation. Refer
+</br> https://www.makerchip.com/
 
 
 
