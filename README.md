@@ -33,7 +33,7 @@ one for A = B condition, and one for A<B condition.
 ## Reference Waveform
 ![reference_waveform](https://user-images.githubusercontent.com/100477948/194507282-2c0d8732-bdb2-41a6-bb75-87162cc90901.png)
 ## Circuit Details
-In the diagram,a 2-bit magnitude comparator is split into two blocks: digital and analog.
+In the diagram, a 2-bit magnitude comparator is split into two blocks: digital and analog.
 </br>
 The digital portion of the circuit is implemented using Verilog.
 </br>
